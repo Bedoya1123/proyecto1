@@ -1,0 +1,50 @@
+{
+  "about": {
+    "home": "http://opencv.org/", 
+    "license": "BSD"
+  }, 
+  "app": {}, 
+  "build": {
+    "entry_points": [], 
+    "features": [], 
+    "number": "1", 
+    "script_env": [], 
+    "string": "", 
+    "track_features": []
+  }, 
+  "package": {
+    "name": "opencv", 
+    "version": "2.4.11"
+  }, 
+  "requirements": {
+    "build": [
+      "cmake 3.3.0", 
+      "numpy", 
+      "eigen 3.2.2"
+    ], 
+    "conflicts": [], 
+    "run": [
+      "python", 
+      "numpy"
+    ]
+  }, 
+  "source": {
+    "fn": "opencv-2.4.11.zip", 
+    "git_rev": "", 
+    "md5": "", 
+    "patches": [], 
+    "path": "", 
+    "sha1": "d6e3048416d42213c204f89b9dfe39742f9a708c", 
+    "svn_rev": "", 
+    "url": "http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.11/opencv-2.4.11.zip/download"
+  }, 
+  "test": {
+    "commands": [], 
+    "files": [], 
+    "imports": [
+      "cv2", 
+      "cv2.cv"
+    ], 
+    "requires": []
+  }
+}

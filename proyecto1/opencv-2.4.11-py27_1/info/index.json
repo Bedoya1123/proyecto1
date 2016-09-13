@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_1", 
+  "build_number": 1, 
+  "depends": [
+    "numpy", 
+    "python 2.7*"
+  ], 
+  "license": "BSD", 
+  "name": "opencv", 
+  "platform": "win", 
+  "subdir": "win-64", 
+  "version": "2.4.11"
+}
